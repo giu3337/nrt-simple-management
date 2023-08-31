@@ -1,0 +1,16 @@
+
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+ 
+  h1 {
+    position: relative; 
+    animation: slideInFromLeft 3s ease-in-out; 
+  }
+  
